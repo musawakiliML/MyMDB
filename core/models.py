@@ -12,8 +12,8 @@ class Movie(models.Model):
     RATINGS = (
         (NOT_RATED, 'NR - Not Rated'),
         (RATED_G, 'G - General Audiences'),
-        (RATED_PG, 'PG - Parental Guidance','Suggested'),
-        (RATED_R, 'R - Restricted'),
+        (RATED_PG, 'PG - Parental Guidance'),
+        (RATED_R, 'R - Restricted')
     )
     title = models.CharField(max_length=140)
     plot = models.TextField()
