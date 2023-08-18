@@ -1,7 +1,9 @@
-{% extends 'core/base.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
 
-<h1> My Movie Database </h1>
-
+   <h1> My Movie Database </h1>
+   <li>
+      <ul> <a href="{% url 'MovieList' %}">Movies List</a> </ul>
+   </li>
 {% endblock content %}
